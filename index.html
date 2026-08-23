@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Кофейня «Cozy Corner» — Меню</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background-color: #f8f9fa; color: #333; padding: 16px; }
+    header { text-align: center; margin-bottom: 24px; padding-bottom: 16px; border-bottom: 2px solid #eee; }
+    h1 { font-size: 24px; color: #2c3e50; margin-bottom: 4px; }
+    .subtitle { font-size: 14px; color: #7f8c8d; }
+    .category-title { font-size: 18px; color: #e67e22; margin: 20px 0 12px; text-transform: uppercase; letter-spacing: 1px; }
+    .menu-item { display: flex; justify-content: space-between; align-items: baseline; background: #fff; padding: 12px 16px; border-radius: 8px; margin-bottom: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.05); }
+    .item-name { font-weight: 600; font-size: 16px; }
+    .item-desc { font-size: 12px; color: #7f8c8d; margin-top: 4px; }
+    .item-price { font-weight: bold; color: #27ae60; font-size: 16px; whitespace: nowrap; margin-left: 12px; }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>☕ Cozy Corner</h1>
+    <p class="subtitle">Сканируйте и заказывайте у официанта</p>
+  </header>
+
+  <main>
+    <div class="category-title">Кофе</div>
+    
+    <div class="menu-item">
+      <div>
+        <div class="item-name">Капучино</div>
+        <div class="item-desc">Эспрессо, взбитое молоко, 300 мл</div>
+      </div>
+      <div class="item-price">1 200 ₸</div>
+    </div>
+
+    <div class="menu-item">
+      <div>
+        <div class="item-name">Флэт Уайт</div>
+        <div class="item-desc">Двойной эспрессо, тонкая молочная пена, 250 мл</div>
+      </div>
+      <div class="item-price">1 400 ₸</div>
+    </div>
+
+    <div class="category-title">Десерты</div>
+
+    <div class="menu-item">
+      <div>
+        <div class="item-name">Чизкейк Сан-Себастьян</div>
+        <div class="item-desc">Нежный обожженный чизкейк, 150 г</div>
+      </div>
+      <div class="item-price">1 800 ₸</div>
+    </div>
+  </main>
+
+</body>
+</html>
